@@ -1,0 +1,16 @@
+[package]
+name = "hello_blockchain"
+version = "1.0.0"
+authors = []
+
+[addresses]
+hello_blockchain = "4bb8f0f75265aef474bcbf446c1612cfee9d816d6b4855d5253e317112339c14"
+
+[dev-addresses]
+
+[dependencies.AptosFramework]
+
+local = "/Users/siddharthmanjul/AptosCore/aptos-core-main/aptos-move/framework/aptos-framework"
+rev="testnet" 
+
+[dev-dependencies]
