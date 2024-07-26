@@ -57,3 +57,4 @@ module hello_blockchain::message {
         );
     }
 }
+/// hello_blockchain = "4bb8f0f75265aef474bcbf446c1612cfee9d816d6b4855d5253e317112339c14"

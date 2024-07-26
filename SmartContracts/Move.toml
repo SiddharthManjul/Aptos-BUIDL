@@ -4,13 +4,16 @@ version = "1.0.0"
 authors = []
 
 [addresses]
-hello_blockchain = "4bb8f0f75265aef474bcbf446c1612cfee9d816d6b4855d5253e317112339c14"
+hello_blockchain = "_"
 
 [dev-addresses]
 
 [dependencies.AptosFramework]
 
 local = "/Users/siddharthmanjul/AptosCore/aptos-core-main/aptos-move/framework/aptos-framework"
-rev="testnet" 
+rev="devnet" 
+
+[dependencies]
+MoveStdlib = { local = "/Users/siddharthmanjul/AptosCore/aptos-core-main/aptos-move/framework/move-stdlib", rev = "devnet", addr_subst = { "std" = "0x1" } }
 
 [dev-dependencies]
